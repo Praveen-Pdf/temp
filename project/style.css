@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.topbar {
+  background-color: red;
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+}
+
+.items{
+    margin: 0 5px;
+}
+
+.items img{
+    width: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.grid-ctr {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+  width: 230px;
+  height: 240px;
+  border: 2px solid rgb(214, 214, 214);
+  border-radius: 2px;
+  /* display: flex;
+    flex-direction: column;
+    align-items: stretch; */
+  margin: 20px 10px;
+}
+
+.card .card-img {
+  width: 70px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.card .card-img img {
+  width: 70px;
+  height: 70px;
+}
+
+.card-title {
+  margin: 20px 30px;
+}
+
+.card-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+.card-counter button {
+  border: none;
+  padding: 5px 10px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 25px;
+}
+.card-btn .cbtn button {
+  border: none;
+  padding: 5px 10px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.card-btn .cbtn button:hover,
+.card-counter button:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.carousel{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-item{
+    margin: 30px 10px;
+    border: 1px solid grey;
+    height: 180px;
+    width: auto;
+}
+
+.footer{
+    height: 340px;
+    width: auto;
+    background-color: rgb(141, 141, 141);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer-item{
+    padding: 20px;
+}
